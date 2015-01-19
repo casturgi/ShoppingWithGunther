@@ -1,0 +1,75 @@
+
+
+.main-content {
+	background-image: url('../images/Gunther.png');
+	height: 50em;
+	max-width: 80em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#title{
+	font-family: 'Sigmar one';
+	font-size: 51px;
+	color: darkorange;
+	margin-left: 15em;
+	margin-top: 0;
+	padding-top: 1em;
+	text-shadow: 7px 5px black;
+}
+
+.hello {
+	font-family: 'Indie Flower';
+	font-size: 25px;
+}
+
+.intro {
+	text-align: center;
+	box-shadow: 5px	5px black;
+}
+
+.bubble {
+	background-color: #136BBB;
+	width: 350px;
+	margin: 4em 20em;
+	padding: 20px;
+	border-radius: 28px;
+	position: static;
+	box-shadow: 5px	5px black;
+}
+
+.bubble:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 30px solid #136BBB;
+	left: 709px;
+	top: 425px;
+}
+
+#yeah {
+	padding: 11px 23px;
+	border-radius: 6px;
+	margin-right: 75px;
+	background-color: green;
+	font-size: 15px;
+}
+
+#nope {
+	padding: 11px 23px;
+	border-radius: 6px;
+	background-color: red;
+	font-size: 15px;
+}
+
+.intro {
+	display: none;
+}
+.main-list {
+	
+}
