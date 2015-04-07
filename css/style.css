@@ -29,6 +29,9 @@ body {
 	margin-top: -28px;
 }
 
+.hello{
+	font-size: 32px;
+}
 .intro {
 	text-align: center;
 	box-shadow: 5px	5px black;
@@ -60,11 +63,14 @@ body {
 }
 
 #yeah {
-	padding: 11px 23px;
-	border-radius: 6px;
-	background-color: green;
-	font-size: 15px;
-	float: center;
+  padding: 11px 23px;
+  border-radius: 6px;
+  background-color: green;
+  font-size: 33px;
+  float: center;
+  font-family: fantasy;
+  width: 150px;
+  height: 69px;
 }
 
 
@@ -75,7 +81,7 @@ body {
 
 #add-li {
   	height: 50px;
-  	width: 124px;
+  	width: 150px;
   	margin-left: 14px;
   	margin-top: 0px;
   	border: 0px;
@@ -85,7 +91,7 @@ body {
 
 #add-button {
   height: 50px;
-  width: 158px;
+  width: 142px;
   margin: 0px 19px;
   padding: 11px 10px;
   font-family: fantasy;
@@ -120,6 +126,9 @@ body {
   border-radius: 5px;
 }
 
+li {
+	padding-top: 4px;
+}
 
 .nevermind{
   background-image: url('../images/X-mark.png');
@@ -130,6 +139,7 @@ body {
   background-color: rgb(245, 250, 54);
   border-width: 0px;
   background-repeat: no-repeat;
+  border-radius: 5px;
 }
 
 .gotten {
@@ -141,6 +151,7 @@ body {
   width: 30px;
   background-color: rgb(245, 250, 54);
   border-width: 0px;
+  border-radius: 5px;
 }
 
 .redo{
