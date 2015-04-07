@@ -5,29 +5,35 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body style="background-color:grey; margin: 0px;">
 	
 	<div class="main-content">
 		<p id="title">Shopping with Gunther</p>
 			<div class="intro bubble">
+				<div id="pointer"></div>
 				<p class="hello">Hello! I'm Gunther, your friendly shopping worm on the wall. Ready to get started?</p>
 				<button id="yeah">Yeah!</button>
-				<button id="nope">Nope!</button>
+				
 			</div>
 
 			<div class="main-list bubble">
+				<div id="pointer"></div>
 				<p class="remember">What Items would you like for me to remember for you?</p>
-				<input type="text" id="add-li">
+				<input type="text" name="add-li" id="add-li">
 				<button id="add-button">Lets get it!</button>
+				<p id="error" style="display:none">Enter an item for me to remember!</p>
 				<ul id="list">
+					<li class="todo">
+						<button class="nevermind"></button>
+						cheese
+						<button class="gotten"></button>
+					</li>
 					<li class="done">eggs</li>
 					<li class="done">bacon</li>
-					<li class="todo">
-					<button class="nevermind"></button>
-					cheese
-					<button class="got-it"></button>
-					</li>
+					
 				</ul>
 			</div>
 	</div>

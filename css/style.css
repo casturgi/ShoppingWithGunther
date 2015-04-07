@@ -1,28 +1,32 @@
 
 
-.main-content {
+body {
 	background-image: url('../images/Gunther.png');
-	height: 50em;
-	max-width: 80em;
-	background-size: contain;
-	background-repeat: no-repeat;
-	margin: 0 auto;
+  	height: 50em;
+  	max-width: 80em;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	
 }
 
 #title{
   font-family: 'Sigmar one';
   font-size: 55px;
   color: darkorange;
-  margin-left: 9em;
+  left: 34%;
   margin-top: 0;
-  padding-top: 1em;
+  margin-bottom: 0;
+  padding-top: 19px;
   text-shadow: 7px 5px black;
-  width: 14em;
+  width: 9em;
+  position: relative;
 }
 
 .hello, .remember {
 	font-family: 'Indie Flower';
 	font-size: 25px;
+	margin-top: -28px;
 }
 
 .intro {
@@ -33,46 +37,38 @@
 .bubble {
   background-color: #136BBB;
   width: 350px;
-  height: 20em;
-  margin: -1em 20em;
+  height: 23em;
+  left: 23%;
   padding: 20px;
   border-radius: 28px;
-  position: static;
+  position: relative;
   box-shadow: 5px	5px black;
   text-align: center;
 }
 
-.bubble:after {
-	content: "";
-	display: block;
-	position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent;
-	border-left: 30px solid #136BBB;
-	left: 709px;
-	top: 425px;
+#pointer {
+  content: "";
+  display: block; 
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid #136BBB;
+  left: 370px;
+  top: 56px;
 }
 
 #yeah {
 	padding: 11px 23px;
 	border-radius: 6px;
-	margin-right: 75px;
 	background-color: green;
 	font-size: 15px;
+	float: center;
 }
 
-#nope {
-	padding: 11px 23px;
-	border-radius: 6px;
-	background-color: red;
-	font-size: 15px;
-}
 
-.intro {
-	display: none;
-}
+
 .main-list {
 	display: none;
 }
@@ -95,6 +91,7 @@
   font-family: fantasy;
   font-size: 22px;
   border-radius: 5px;
+  box-shadow: 3px 3px black;
   background-color: yellowgreen;
 }
 
@@ -109,19 +106,20 @@
   font-size: 19px;
   width: 300px;
   background-color: rgb(255, 192, 49);
-  margin: 8px auto;
+  margin: 5px auto;
   border-radius: 5px;
   text-decoration: line-through;
 }
 
 .todo{
-	font-family: fantasy;
-  	font-size: 19px;
-  	background-color: rgb(245, 250, 54);
-  	width: 300px;
-  	margin: 0 auto;
-  	border-radius: 5px;
+  font-family: fantasy;
+  font-size: 19px;
+  background-color: rgb(245, 250, 54);
+  width: 300px;
+  margin: 5px auto;
+  border-radius: 5px;
 }
+
 
 .nevermind{
   background-image: url('../images/X-mark.png');
@@ -134,7 +132,7 @@
   background-repeat: no-repeat;
 }
 
-.got-it {
+.gotten {
   background-image: url('../images/check-mark.png');
   float: right;
   background-size: contain;
@@ -143,4 +141,23 @@
   width: 30px;
   background-color: rgb(245, 250, 54);
   border-width: 0px;
+}
+
+.redo{
+	background-image: url('../images/circle.png');
+	float: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 29px;
+  width: 30px;
+  background-color: rgb(245, 250, 54);
+  border-width: 0px;
+}
+
+#error {
+  font-family: 'Indie Flower';
+  font-size: 17px;
+  color: antiquewhite;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
